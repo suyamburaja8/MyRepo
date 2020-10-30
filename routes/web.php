@@ -31,4 +31,6 @@ Route::get('/login',function () {
 });
 
 
-Route::get('/signup', [LoginController::class, 'store']);
+Route::post('/signup', [LoginController::class, 'store']);
+Route::post('/login', [LoginController::class, 'show']);
+Route::get('logout', [LoginController::class, 'logout']);
