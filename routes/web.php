@@ -34,3 +34,6 @@ Route::get('/login',function () {
 Route::post('/signup', [LoginController::class, 'store']);
 Route::post('/login', [LoginController::class, 'show']);
 Route::get('logout', [LoginController::class, 'logout']);
+
+Route::get('login/{service}', [LoginController::class, 'redirectToProvider']);
+Route::get('login/{service}/callback', [LoginController::class, 'handleProviderCallback']);

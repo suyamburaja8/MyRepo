@@ -40,9 +40,9 @@
                                         </form>
                                     </div>
                                     <div class="card-footer text-center">
-                                        <div class="small"><a href="register">Need an account? Sign up!</a>
-                                            <a class="btn btn-primary"href="register">Login with FaceBook</a>
-                                            <a class="btn btn-secondary" href="register">Login with Google</a></div>
+                                        <div class="small"><a href="register">Need an account? Sign up!</a><br>
+                                            <a class="btn btn-primary"href="/login/facebook">Login with FaceBook</a>
+                                            <a class="btn btn-secondary" href="/login/google">Login with Google</a></div>
                                     </div>
                                 </div>
                             </div>
